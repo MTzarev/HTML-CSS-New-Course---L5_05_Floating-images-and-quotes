@@ -1,0 +1,50 @@
+header{
+    border-bottom: 3px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h1, h2, blockquote{
+    font-family: Georgia, serif;
+    
+}
+body{
+    background-color: rgb(238, 238, 238);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+img{
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    padding: 4px;
+}
+.img1{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 1px;
+    height: 120px;
+    
+}
+.img2{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 1px;
+    width: 120px;
+}
+.left-side,.position{
+    max-width: 45%;
+}
+.position{
+    float: right;
+    margin-top: -1em;
+    padding-bottom: 18px;
+    font-style: italic;
+    color: gray;
+}
+.left-side{
+    border-right: 3px solid lightgray;
+    padding-right: 35px;
+}
+.author{
+    text-align: right;
+}
